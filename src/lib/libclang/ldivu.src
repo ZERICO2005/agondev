@@ -7,7 +7,7 @@ __ldivu:
 ; I: EUHL=dividend, AUBC=divisor
 ; O: euhl=EUHL/AUBC
 
-.if 1
+.if 0
 	push	bc
 
 	call	__ldvrmu

@@ -7,7 +7,7 @@ __lremu:
 ; I: EUHL=dividend, AUBC=divisor
 ; O: euhl=EUHL%AUBC
 
-.if 1
+.if 0
 	call	__ldvrmu
 	ld	e, a
 	push	de
